@@ -8,9 +8,13 @@ export default defineConfig({
     starlight({
       title: 'Strix Developer Documentation',
       description: 'Technical documentation for Strix Engineering Studio.',
-      social: {
-        github: 'https://github.com/strix-engineering-studio/strix-developer',
-      },
+      social: [
+        {
+          icon: 'github',
+          label: 'GitHub',
+          href: 'https://github.com/strix-engineering-studio/strix-developer',
+        },
+      ],
       sidebar: [
         { label: 'Start here', items: [
           { label: 'Welcome', slug: 'index' },
