@@ -18,6 +18,8 @@ The technical documentation hub for Strix Engineering Studio projects, platforms
 ## Local development
 ```bash
 npm install
+npm run check
+npm run build
 npm run dev
 ```
 
