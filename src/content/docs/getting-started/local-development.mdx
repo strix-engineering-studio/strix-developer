@@ -1,0 +1,21 @@
+---
+title: Local development
+description: Baseline practices for reproducible local development.
+---
+
+# Local development
+
+Each project must document its exact runtime, package manager, dependency installation command, environment variables, startup command, test command, and known external dependencies.
+
+## Recommended sequence
+
+```bash
+git clone <repository-url>
+cd <repository-directory>
+
+# Install dependencies using the project's documented package manager
+# Configure local environment using .env.example
+# Start the development server using the project's documented command
+```
+
+Do not assume all Strix projects share the same runtime or setup process. Follow each project's README.
