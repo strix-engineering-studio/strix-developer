@@ -1,0 +1,15 @@
+---
+title: Testing strategy
+description: Testing layers and minimum expectations for critical behavior.
+---
+
+# Testing strategy
+
+Use tests at the layer where behavior is best verified.
+
+- Unit tests: domain rules, pure functions, and transformations.
+- Integration tests: persistence, external adapters, and service boundaries.
+- Contract tests: API and event schemas shared across systems.
+- End-to-end tests: critical user journeys and release-blocking workflows.
+
+Critical business rules and payment, identity, permission, and data-mutation flows require focused tests. Record known gaps rather than implying unverified coverage.
