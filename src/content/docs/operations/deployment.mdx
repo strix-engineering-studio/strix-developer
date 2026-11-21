@@ -1,0 +1,18 @@
+---
+title: Deployment
+description: Deployment and rollback documentation requirements.
+---
+
+# Deployment
+
+Every deployable project should document:
+
+- Target environment and infrastructure owner
+- Build artifact and runtime configuration
+- Required environment variables and secret references (never secret values)
+- Database migrations and compatibility considerations
+- Health checks and post-deploy verification
+- Rollback or recovery procedure
+- Monitoring and escalation ownership
+
+Test the procedure in a non-production environment before relying on it for a production release.
