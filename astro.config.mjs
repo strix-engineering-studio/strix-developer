@@ -8,7 +8,6 @@ export default defineConfig({
     starlight({
       title: 'Strix Developer Documentation',
       description: 'Technical documentation for Strix Engineering Studio.',
-      defaultLocale: 'root',
       social: {
         github: 'https://github.com/strix-engineering-studio/strix-developer',
       },
