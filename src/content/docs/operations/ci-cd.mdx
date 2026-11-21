@@ -1,0 +1,21 @@
+---
+title: CI/CD
+description: Continuous integration and delivery expectations.
+---
+
+# CI/CD
+
+A project's pipeline should make quality gates visible and reproducible.
+
+## Baseline checks
+
+- Dependency installation from the committed lockfile
+- Formatting and linting
+- Type checking where supported
+- Unit and integration tests
+- Production build
+- Security and dependency checks appropriate to the project
+
+## Release process
+
+Separate validation from deployment. Protect production credentials with repository or environment secrets, prefer short-lived identity federation where supported, and keep deployment logs accessible.
